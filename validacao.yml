@@ -1,11 +1,19 @@
 ---
 
 - hosts: all
+<<<<<<< HEAD
   gather_facts: yes
   tasks:
   - name: Creating an empty file
     file:
       path: "/tmp/teste1"
+=======
+  gather_facts: no
+  tasks:
+  - name: Creating an empty file
+    file:
+      path: "/tmp/testeawx"
+>>>>>>> 2112827738cdc549c3ef9fbc9412e96fa4b1f499
       state: touch
 
   
